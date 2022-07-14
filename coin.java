@@ -1,6 +1,6 @@
 import java.util.Random;
  
-public class Coin {
+public class coin {
     public static void main(String[] args){
         System.out.println("Tossing a coin...");
 		Random rand=new Random();
@@ -23,5 +23,10 @@ public class Coin {
         
 		}
 		System.out.println("heads: "+pos+", "+"tails: "+nag);
-    }
+        if(pos > nag){
+         System.out.print("you win!");
+      }else{
+         System.out.print("you lost!");
+      }
+	}
 }
