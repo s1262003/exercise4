@@ -30,9 +30,9 @@ public class coin {
 		System.out.println("heads: "+pos+", "+"tails: "+nag);
 <<<<<<< HEAD
         if(pos > nag){
-         System.out.print("you win!");
+         System.out.print(you+" win!");
       }else{
-         System.out.print("you lost!");
+         System.out.print(tou+" lost!");
       }
 	}
 =======
