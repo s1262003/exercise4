@@ -1,8 +1,13 @@
+import java.util.Scanner;
 import java.util.Random;
  
-public class Coin {
+public class coin {
     public static void main(String[] args){
-        System.out.println("Tossing a coin...");
+        System.out.println("Who are you?");
+		Scanner scan = new Scanner(System.in);
+		String you = scan.next();
+		System.out.println(" Hello, "+you+"!");
+		System.out.println("Tossing a coin...");
 		Random rand=new Random();
         int pos=0;
 		int nag=0;
